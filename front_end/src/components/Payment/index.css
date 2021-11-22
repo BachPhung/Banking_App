@@ -1,0 +1,56 @@
+#Container{
+    flex-direction: column;
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#h{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#paymentForm{
+    padding: 20px;
+    padding-bottom: 40px;
+    background-color: #F8A488;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+#Container input{    
+    margin: 10px;
+    width: 200px;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+#Container .clickServ{
+    z-index: 2;
+    flex-direction: row !important;
+}
+#Container #btn{
+    margin-top: 20px;
+    justify-content: center;
+    width: 80px;
+    display: flex;
+    background-color: orange;
+    color: white;
+    padding: 7px;
+    border-radius: 50px;
+}
+.icon{
+    font-size: 25px;
+    color: #09009B;
+    cursor:pointer;
+}
